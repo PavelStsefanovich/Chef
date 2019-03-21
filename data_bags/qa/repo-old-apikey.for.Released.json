@@ -1,0 +1,15 @@
+{
+	"id": "repo",
+	"host": "repo.athoc.com",
+	"path": "artifactory/CorpSoftware",
+	"apikey": "AKCp5aU5qtow96xAyJYWspo9Jq1KNvqcYWTwXtqcUJvVSjTRyAZWMnjocrTEgxeXCD7kN2KTh",
+	"apiHeader": "X-JFrog-Art-Api",
+	"secure": 1,
+	"repo_prereqs_path": "",
+	"nugetsource": {
+		"name": "repo",
+		"path": "artifactory/api/nuget/nugetPackages",
+		"username": "repo",
+		"password": "AtHoc22!5"
+	}
+}

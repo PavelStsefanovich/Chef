@@ -1,0 +1,34 @@
+{
+	"id": "repositories",
+	"CorpSoftware": {
+		"type": "jfrog",
+		"url": "https://repo.athoc.com/artifactory/CorpSoftware",
+		"apikey": "AKCp5Z2hYtVaSZkjMVUUBsvKthxZCjCY1B1i7UHet7A65xnkzy3JpBM5H4My1Z3p2XTMnVQhW",
+		"apiHeader": "X-JFrog-Art-Api"
+	},
+	"nugetPackages": {
+		"type": "jfrog",
+		"url": "https://repo.athoc.com/artifactory/api/nuget/nugetPackages",
+		"name": "repo",
+		"username": "repo",
+		"password": "AtHoc22!5"
+	},
+	"IWS": {
+		"type": "jfrog",
+		"url": "https://repo.athoc.com/artifactory/IWS",
+		"apikey": "AKCp5aU5qtow96xAyJYWspo9Jq1KNvqcYWTwXtqcUJvVSjTRyAZWMnjocrTEgxeXCD7kN2KTh",
+		"apiHeader": "X-JFrog-Art-Api"
+	},
+	"IWS2.0": {
+		"type": "jfrog",
+		"url": "https://repo.athoc.com/artifactory/IWS2.0",
+		"apikey": "AKCp5aU5qtow96xAyJYWspo9Jq1KNvqcYWTwXtqcUJvVSjTRyAZWMnjocrTEgxeXCD7kN2KTh",
+		"apiHeader": "X-JFrog-Art-Api"
+	},
+	"Released": {
+		"type": "jfrog",
+		"url": "https://repo.athoc.com/artifactory/Released",
+		"apikey": "AKCp5aU5qtow96xAyJYWspo9Jq1KNvqcYWTwXtqcUJvVSjTRyAZWMnjocrTEgxeXCD7kN2KTh",
+		"apiHeader": "X-JFrog-Art-Api"
+	}
+}

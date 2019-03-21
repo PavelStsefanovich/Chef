@@ -1,0 +1,26 @@
+{
+	"id": "env_config",
+	"install_disk": "C:",
+	"certificates_codesign": {
+		"name": "athoc_code_signing_2016.pfx",
+		"passw": "athoc123"
+	},
+	"certificates_java": {
+		"keystorePassw": "changeit",
+		"certificates": [
+			{
+				"name": "build.athoc.cer",
+				"alias": "athoc_wildcard_exp_05062019"
+			},
+			{
+				"name": "build.athocdevo.cer",
+				"alias": "athocdevo_wildcard_exp_01102021"
+			}
+		]
+	},	
+	"reboot_delay": 1,
+	"winrm": {
+		"winrmuser": "athocdevo\\bbot",
+		"winrmpassw": "F0r3Fr0nt!"
+	}
+}

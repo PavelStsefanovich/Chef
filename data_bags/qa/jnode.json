@@ -1,0 +1,29 @@
+{
+  "id": "jnode",
+  "jnode_jenkinsUrl": "https://build.athocdevo.com",
+  "jnode_user": "bbot",
+  "jnode_apiToken": "79b8b440a7bb9e20e73c274be0f44701",
+  "jnode_nodeName": "",
+  "jnode_labels": "chef_qa",
+  "jnode_numberOfExecutors": "1",
+  "jnode_usageMode": "EXCLUSIVE",
+  "jnode_jenkinsFolder": "C:/Jenkins",
+  "jnode_winswVersion": "2.1.2",
+  "jnode_serviceDomain": "athocdevo",
+  "jnode_serviceUser": "bbot",
+  "jnode_servicePassw": "F0r3Fr0nt!",
+  "jnode_javaCertificates": [
+    {
+      "name": "build.athoc.cer",
+      "alias": "athoc_wildcard_exp_05062019"
+    },
+    {
+      "name": "build.athocdevo.cer",
+      "alias": "athocdevo_wildcard_exp_01102021"
+    }
+  ],
+  "jnode_codesignCertificate": {
+    "name": "athoc_code_signing_2016.pfx",
+    "password": "athoc123"
+  }
+}

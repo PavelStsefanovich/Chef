@@ -1,0 +1,39 @@
+{
+	"id": "env_config",
+	"install_disk": "C:",
+	"certificates_codesign": {
+		"name": "athoc_code_signing_2016.pfx",
+		"passw": "athoc123"
+	},
+	"certificates_java": {
+		"keystorePassw": "changeit",
+		"certificates": [
+			{
+				"name": "build.athoc.cer",
+				"alias": "athoc_wildcard_exp_05062019"
+			},
+			{
+				"name": "build.athocdevo.cer",
+				"alias": "athocdevo_wildcard_exp_01102021"
+			}
+		]
+	},
+	"certificates_iis": {
+		"domain": "athocdevo.com",
+		"certificates": {
+			"iis": {
+				"name": "Athocdevo_WildCard_GoDaddy_20210110.pfx",
+				"domain": "athocdevo.com",
+				"password": "athoc123"
+			},
+			"rootCA": {
+				"name": "gdroot-g2.crt"
+			}
+		}
+	},
+	"reboot_delay": 0,
+	"winrm": {
+		"winrmuser": "athocdevo\\bbot",
+		"winrmpassw": "F0r3Fr0nt!"
+	}
+}
